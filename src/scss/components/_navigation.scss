@@ -22,11 +22,19 @@
       color: $text-secondary;
     }
 
+    &:hover {
+      color: $color-link-hover;
+    }
+
     &--current {
       color: $text-accent;
 
       &:visited {
         color: $text-accent;
+      }
+
+      &:hover {
+        color: $text-secondary;
       }
     }
   }

@@ -13,6 +13,10 @@
     &:visited {
       color: $text-secondary;
     }
+
+    &:hover {
+      color: $color-link-hover;
+    }
   }
 
   &__text {
