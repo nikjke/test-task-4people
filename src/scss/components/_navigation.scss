@@ -18,8 +18,16 @@
     text-transform: uppercase;
     color: $text-secondary;
 
+    &:visited {
+      color: $text-secondary;
+    }
+
     &--current {
       color: $text-accent;
+
+      &:visited {
+        color: $text-accent;
+      }
     }
   }
 }

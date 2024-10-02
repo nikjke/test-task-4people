@@ -18,6 +18,10 @@
   background-color: $color-button-background;
   color: $color-button-text;
 
+  &:visited {
+    color: $color-button-text;
+  }
+
   &:hover {
     border-color: $color-button-border-hover;
     background-color: $color-button-background-hover;
@@ -29,6 +33,10 @@
   border: 1px solid $color-secondary-button-border;
   background-color: $color-secondary-button-background;
   color: $color-secondary-button-text;
+
+  &:visited {
+    color: $color-secondary-button-text;
+  }
 
   &:hover {
     border-color: $color-secondary-button-border-hover;
