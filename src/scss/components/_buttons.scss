@@ -1,0 +1,45 @@
+.primary-button,
+.secondary-button {
+  transition: .4s ease;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 4px;
+  min-width: 183px;
+  padding: 14px 21px;
+  font-size: 13px;
+  line-height: 15px;
+  text-transform: uppercase;
+  cursor: pointer;
+}
+
+.primary-button {
+  border: 1px solid $color-button-border;
+  background-color: $color-button-background;
+  color: $color-button-text;
+
+  &:hover {
+    border-color: $color-button-border-hover;
+    background-color: $color-button-background-hover;
+    color: $color-button-text-hover;
+  }
+}
+
+.secondary-button {
+  border: 1px solid $color-secondary-button-border;
+  background-color: $color-secondary-button-background;
+  color: $color-secondary-button-text;
+
+  &:hover {
+    border-color: $color-secondary-button-border-hover;
+    background-color: $color-secondary-button-background-hover;
+    color: $color-secondary-button-text-hover;
+  }
+}
+
+@media (max-width: 575px) {
+  .primary-button,
+  .secondary-button {
+    min-width: 100%;
+  }
+}

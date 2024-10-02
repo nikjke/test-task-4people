@@ -1,0 +1,27 @@
+.payment-systems {
+  display: flex;
+  gap: 1.97vw;
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+
+  &__item {
+    display: flex;
+    align-items: center;
+  }
+
+  &__text {
+    margin-left: 10px;
+    font-size: 13px;
+    line-height: 20px;
+    text-transform: uppercase;
+    color: $text-muted;
+  }
+}
+
+@media (max-width: 575px) {
+  .payment-systems {
+    flex-direction: column;
+    align-items: center;
+  }
+}

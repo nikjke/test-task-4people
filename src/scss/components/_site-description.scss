@@ -1,0 +1,15 @@
+.site-description {
+  font-size: 13px;
+  line-height: 20px;
+  color: $text-secondary;
+
+  span {
+    text-transform: uppercase;
+  }
+}
+
+@media (max-width: 575px) {
+  .site-description {
+    text-align: center;
+  }
+}

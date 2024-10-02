@@ -1,0 +1,12 @@
+@keyframes changeColor {
+  0%,
+  100% {
+    border-color: #bbb;
+    background-color: #6f6d7b;
+  }
+  20%,
+  80% {
+    border-color: #286690;
+    background-color: #3e9cdc;
+  }
+}

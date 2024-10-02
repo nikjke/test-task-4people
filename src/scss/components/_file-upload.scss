@@ -1,0 +1,29 @@
+.file-upload {
+  &__input {
+    display: none;
+  }
+
+  &__btn {
+    width: 100%;
+    font-weight: 600;
+    font-size: 15px;
+    color: $sldark;
+
+    &:hover {
+      &::before {
+        filter: brightness(100);
+      }
+    }
+
+    &::before {
+      content: '';
+      position: relative;
+      transition: .4s ease;
+      display: inline-block;
+      margin-right: 10px;
+      width: 18px;
+      height: 20px;
+      background: url('../images/icon-blank.svg') center/contain no-repeat;
+    }
+  }
+}
